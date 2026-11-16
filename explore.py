@@ -66,10 +66,11 @@ print("Saved data/explored.csv")
 
 # Reflection Questions: Answer the following questions in 2-3 sentences each.
 # 1. Without looking at your code, can you explain what a boolean filter does in plain English? Practice saying it out loud.
-# 
+# A filter goes through the data and only shows the rows I want. For example, I can use it to only show sales from the South.
 
 # 2. What is the difference between df["revenue"] and df[["revenue"]]? When does the distinction matter?
-# 
+# One set of brackets gives me one column of data. Two sets of brackets keep it as a table with a column. I would use two brackets if I still wanted it as a table.
 
 # 3. If a colleague who only knows Excel asked you to explain why you would choose pandas for this task, what is the single most compelling reason you would give?
-# 
+# I would use pandas because it can work with a lot of data quickly. It makes it easier to sort and find certain information without having to go through everything myself in Excel.
+
