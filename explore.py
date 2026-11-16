@@ -17,3 +17,9 @@ print(df.dtypes)
 
 
 print("--- Exercise 2 ---")
+
+south = df[df["region"] == "South"]
+
+print(len(south))
+print(south.head())
+
